@@ -7,13 +7,13 @@ no padding and margin. */
     margin: 0;
 }
 
-/* This gives the background webpage a smooth cream color. */
+/* This gives the background of webpage a smooth cream color. */
 body {
     background-color: #d9dcd6;
 }
 
 /* This selector gives the header box some more room with the 20px
-padding. Additionally it gives the header a unique font compared to
+padding. Additionally, it gives the header a unique font compared to
 the rest of the page, a background color and a white font. */
 .header {
     padding: 20px;
@@ -97,13 +97,14 @@ positioning */
     float: right;
 }
 
-/* The three properties in the selector give room to the right of the page for the aside section. */
+/* The three properties in the selector gives room to the right of the page for the aside section. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This selector targets the benefit container in the aside element and sizes and organizes it */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -115,22 +116,27 @@ positioning */
     background-color: #2589bd;
 }
 
+/* This selector targets each indivdual article in the aside element and gives each some space, 
+and the text color of white */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* This selector styles  each heading of the benefit container*/
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* This styles each image of the benefit container */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* This selector formats and styles the containers under the main element. */
 .images {
     margin-bottom: 20px;
     padding: 50px;
@@ -140,15 +146,20 @@ positioning */
     color: #ffffff;
 }
 
+/* This selector restricts the height of the images under the main element so they don't
+overflow */
 .images img {
     max-height: 200px;
 }
 
+/* This sector gives the headings under the main element some space at the bottom and increases
+their default font size. */
 .images h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* This selector styles and formats the footer element at the bottom of the page. */
 .footer {
     padding: 30px;
     clear: both;
@@ -156,6 +167,7 @@ positioning */
     text-align: center;
 }
 
+/* This selector  increases the default font size of the heading in the footer element. */
 .footer h2 {
     font-size: 20px;
 }
