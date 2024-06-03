@@ -1,13 +1,20 @@
+/* The asterisk  applies CSS to every element on the page.
+In this case, all the elements have border-box styling, and
+no padding and margin. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* This gives the background webpage a smooth cream color. */
 body {
     background-color: #d9dcd6;
 }
 
+/* This selector gives the header box some more room with the 20px
+padding. Additionally it gives the header a unique font compared to
+the rest of the page, a background color and a white font. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +22,24 @@ body {
     color: #ffffff;
 }
 
+/* This selector gives the h1 element a bigger font size in the header
+container and displays it inline. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This selector gives the text "seo" a different color compared the the
+rest of the h1 text.*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* This selector gives the nav bar some space using the the padding-top
+and margin right properties while the float property positions the nav tabs
+to the right of the page. The next two properties determine the font size and family.
+The final property eliminates the bullet points that would normally be included on
+list elements. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,20 +49,29 @@ body {
     list-style-type: none;
 }
 
+/* This selector display the list elements of the nav container inline, and gives them
+some space for one another using the margin-left property. */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This selector gives the anchor elements a white font and deactivates any text
+decorations. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* The selector simply gives all p elements a font size of 16px. */
 p {
     font-size: 16px;
 }
 
+/* This selector gives the image under the nav tab a 800px height, the full width, and 
+25px of space at the bottom. Furthermore, the background-size property with the value of
+cover scales the image to the size of the container without distorting the image, while the
+final property centers the image to the center of the page. */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,18 +81,23 @@ p {
     background-position: center;
 }
 
+/* This selector gives the images with the float class 25px of space to the right for better
+positioning */
 .float {
     margin-right: 25px;
 }
 
+/* This selector places the images with the float left class to the left of the text. */
 .left {
     float: left;
 }
 
+/* This selector places the images with the float right class to the right of the text. */
 .right {
     float: right;
 }
 
+/* The three properties in the selector give room to the right of the page for the aside section. */
 .content {
     width: 75%;
     display: inline-block;
